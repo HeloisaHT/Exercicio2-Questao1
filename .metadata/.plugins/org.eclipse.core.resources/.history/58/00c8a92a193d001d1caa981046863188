@@ -1,0 +1,39 @@
+package Q1;
+
+import java.util.*;
+
+public class Pessoa {
+	Scanner ler = new Scanner(System.in);
+	String nome;
+	String cpf;
+	int idade;
+	
+	public Pessoa(String nome, String cpf, int idade) {
+		super();
+		this.nome = nome;
+		this.cpf = cpf;
+		this.idade = idade;
+	}
+	public Pessoa() {
+		super();
+	}
+	
+	public void Alterar(){
+		System.out.println("Digite um nome: ");
+		this.nome = ler.next();
+		System.out.println("Digite uma idade: ");
+		this.idade = ler.nextInt();
+		System.out.println("Digite um cpf: ");
+		this.cpf = ler.next();
+		
+	}
+	
+	public void Status() {
+		System.out.println("Nome: "+this.nome);
+		System.out.println("CPF: "+this.cpf);
+		System.out.println("Idade: "+this.idade);	
+	}
+	
+	
+
+}

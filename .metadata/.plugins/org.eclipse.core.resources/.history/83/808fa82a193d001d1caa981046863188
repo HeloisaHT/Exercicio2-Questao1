@@ -1,0 +1,15 @@
+package Q1;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		Pessoa p = new Pessoa("Rodrigo","145.543.678-32",45);
+		p.Status();
+		
+		Pessoa p2 = new Pessoa();
+		p2.Alterar();
+		p2.Status();
+
+	}
+
+}

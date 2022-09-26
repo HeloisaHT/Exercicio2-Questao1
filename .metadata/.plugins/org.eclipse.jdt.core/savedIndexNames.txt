@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\elias\OneDrive\Área de Trabalho\Rodrigo1\.metadata\.plugins\org.eclipse.jdt.core
+2538789529.index
+1372677264.index
+1865797976.index
